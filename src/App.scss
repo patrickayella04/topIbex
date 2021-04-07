@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%; /* 1 rem is now 1 10 pixles*/
+  box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+  .App {
+    display: grid;
+    grid-template-rows: 60px 180vw 200vw 200vw 200vw 200vw 120vw;
+
+    grid-template-areas:
+      "nav"
+      "section-one"
+      "section-two"
+      "section-three"
+      "section-four"
+      "section-five"
+      "section-six";
+  }
+
+  .nav-area {
+    grid-area: nav;
+    background-color: #000000;
+  }
+  .section-one {
+    grid-area: section-one;
+    background-color: #ffffff;
+  }
+  .section-two {
+    grid-area: section-two;
+    background-color: rgba(243, 231, 231, 1);
+  }
+  .section-three {
+    grid-area: section-three;
+    background-color: rgba(216, 211, 228, 1);
+  }
+  .section-four {
+    grid-area: section-four;
+    background-color: rgba(219, 239, 233, 1);
+  }
+  .section-five {
+    grid-area: section-five;
+    background-color: #ffffff;
+  }
+  .section-six {
+    grid-area: section-six;
+    background-color: #000000;
+  }
+}
+
+@import "src/components/navigation/navigation.scss";
