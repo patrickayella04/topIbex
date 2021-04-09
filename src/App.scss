@@ -11,7 +11,7 @@ html {
 @media (max-width: 530px) {
   .App {
     display: grid;
-    grid-template-rows: 65px 185vw 200vw 200vw 200vw 200vw 120vw;
+    grid-template-rows: 65px 185vw auto auto auto 200vw 120vw;
 
     grid-template-areas:
       "nav"
@@ -56,3 +56,5 @@ html {
 @import "src/components/navigation/navigation.scss";
 @import "src/components/sectionOne/One.scss";
 @import "src/components/sectionTwo/Two.scss";
+@import "src/components/sectionThree/Three.scss";
+@import "src/components/sectionFour/Four.scss";

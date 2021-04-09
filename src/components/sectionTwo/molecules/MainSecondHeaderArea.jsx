@@ -1,7 +1,7 @@
 import React from "react";
 import HeaderText from "../atoms/HeaderText";
 
-function MainHeaderArea() {
+function MainSecondHeaderArea() {
   return (
     <div className="two-main-header-area">
       <HeaderText />
@@ -9,4 +9,4 @@ function MainHeaderArea() {
   );
 }
 
-export default MainHeaderArea;
+export default MainSecondHeaderArea;

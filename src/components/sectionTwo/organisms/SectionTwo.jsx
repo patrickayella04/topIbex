@@ -2,7 +2,8 @@ import React from "react";
 import CardImageArea from "../molecules/CardImageArea";
 import CircleImgArea from "../molecules/CircleImgArea";
 import DesHeaderArea from "../molecules/DesHeaderArea";
-import MainHeaderArea from "../molecules/MainHeaderArea";
+import InnerCardArea from "../molecules/InnerCardArea";
+import MainHeaderArea from "../molecules/MainSecondHeaderArea";
 import SecondDesHeaderArea from "../molecules/SecondDesHeaderArea";
 import SecondHeaderArea from "../molecules/SecondHeaderArea";
 
@@ -16,6 +17,7 @@ function SectionTwo() {
         <SecondDesHeaderArea />
         <CircleImgArea />
         <CardImageArea />
+        <InnerCardArea />
       </div>
     </>
   );
