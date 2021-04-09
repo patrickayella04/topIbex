@@ -1,3 +1,4 @@
+/// Overall Layout structure
 * {
   margin: 0;
   padding: 0;
@@ -7,10 +8,10 @@ html {
   box-sizing: border-box;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 530px) {
   .App {
     display: grid;
-    grid-template-rows: 60px 180vw 200vw 200vw 200vw 200vw 120vw;
+    grid-template-rows: 65px 185vw 200vw 200vw 200vw 200vw 120vw;
 
     grid-template-areas:
       "nav"
@@ -51,5 +52,7 @@ html {
     background-color: #000000;
   }
 }
-
+/// Imports from components
 @import "src/components/navigation/navigation.scss";
+@import "src/components/sectionOne/One.scss";
+@import "src/components/sectionTwo/Two.scss";

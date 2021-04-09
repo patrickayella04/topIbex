@@ -1,18 +1,19 @@
 .fa-2x {
   color: white;
   padding-left: 65vw;
-  padding-top: 20px;
+  //padding-top: 20px;
 }
 .logo {
   color: white;
   padding-left: 20px;
-  padding-top: 20px;
+  //padding-top: 20px;
   font-size: 2rem;
 }
 .nav-area {
   //border: blueviolet solid 3px;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 .nav-container {
   //border: blueviolet solid 3px;
@@ -24,6 +25,6 @@
   .fa-2x {
     color: white;
     padding-left: 55vw;
-    padding-top: 20px;
+    //padding-top: 20px;
   }
 }
