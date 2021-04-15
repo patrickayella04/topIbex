@@ -1,4 +1,5 @@
 import React from "react";
+import BottomBoxArea from "../molecules/BottomBoxArea";
 import CardImageArea from "../molecules/CardImageArea";
 import CircleImgArea from "../molecules/CircleImgArea";
 import DesHeaderArea from "../molecules/DesHeaderArea";
@@ -18,6 +19,7 @@ function SectionTwo() {
         <CircleImgArea />
         <CardImageArea />
         <InnerCardArea />
+        <BottomBoxArea />
       </div>
     </>
   );

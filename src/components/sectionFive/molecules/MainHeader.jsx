@@ -1,12 +1,12 @@
 import React from "react";
 import MainHeaderText from "../atoms/MainHeaderText";
 
-function MainHeaderArea() {
+function MainHeader() {
   return (
-    <div className="main-header-area">
+    <div className="f-main-header-area">
       <MainHeaderText />
     </div>
   );
 }
 
-export default MainHeaderArea;
+export default MainHeader;

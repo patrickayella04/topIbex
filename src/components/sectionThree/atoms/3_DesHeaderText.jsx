@@ -1,11 +1,11 @@
 import React from "react";
 
-function DesHeader() {
+function TDesHeader() {
   return (
-    <p className="two-des-header">
+    <p className="three-des-header">
       Lorem ipsum dolor sit amet klsdfjlskd klsadj.
     </p>
   );
 }
 
-export default DesHeader;
+export default TDesHeader;

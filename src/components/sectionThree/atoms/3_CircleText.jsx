@@ -1,11 +1,11 @@
 import React from "react";
 
-function ThirdCircleText() {
+function TCircleText() {
   return (
-    <p className="two-circle-text">
+    <p className="three-circle-text">
       Full Name <br /> TItle of work kjfd;lakas
     </p>
   );
 }
 
-export default ThirdCircleText;
+export default TCircleText;

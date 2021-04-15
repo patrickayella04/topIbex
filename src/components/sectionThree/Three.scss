@@ -4,66 +4,78 @@
   flex-direction: column;
   align-items: center;
 }
-.section-two {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 // Molecules
-.two-main-header-area,
-.two-des-header-area,
-.two-second-header-area,
-.two-second-des-header-area,
-.two-circle-image-area {
+.three-main-header-area,
+.three-des-header-area,
+.three-second-header-area,
+.three-second-des-header-area,
+.three-circle-image-area {
   width: 85vw;
   height: fit-content;
   margin-top: 22vw;
   border: 1px solid black;
 }
-.two-des-header-area,
-.two-second-des-header-area {
+.three-main-header-area {
+  //border: none;
+}
+.three-des-header-area,
+.three-second-des-header-area {
   height: 10vw;
   margin-top: 2vw;
 }
-.two-second-des-header-area {
+.three-second-des-header-area {
   height: 25vw;
 }
-.two-second-header-area {
+.three-second-header-area {
   height: 10vw;
   margin-top: 15vw;
 }
-.two-circle-image-area {
+.three-circle-image-area {
   display: flex;
 
   margin-top: 10vw;
   height: 15vw;
   border: none;
 }
-.two-card-image,
-.two-inner-card-area {
+.three-card-image,
+.three-inner-card-area {
   width: 85vw;
   height: 45vw;
   margin-top: 15vw;
   border: solid black 0.5px;
   // background-color: black;
 }
-.two-inner-card-area {
+.three-inner-card-area {
   height: 106vw;
   margin-bottom: 15vw;
+  border: none;
+  background-color: rgba(201, 196, 215, 1);
+}
+
+.t-one-box-link {
+  width: 100%;
+  height: 15vw;
+  background-color: rgba(195, 182, 232, 1);
+}
+.three-des-header-area {
+  font-size: 2rem;
+  line-height: 3rem;
+  height: fit-content;
+  //border: none;
 }
 
 // Atoms
-.two-header-text {
+.three-header-text {
   font-size: 4rem;
 }
-.circle-img {
+.three-circle-img {
   height: 15vw;
   width: 15vw;
   border: solid 1px black;
   border-radius: 45px;
 }
-.two-circle-text {
+.three-circle-text {
   font-size: 1.4rem;
   margin-top: 3vw;
   margin-left: 3vw;

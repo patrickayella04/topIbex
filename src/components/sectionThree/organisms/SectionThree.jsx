@@ -1,23 +1,27 @@
 import React from "react";
-import ThirdDesHeader from "../atoms/ThirdDesHeader";
-import MainThirdHeaderArea from "../molecules/MainThirdHeaderArea";
-import ThirdCardImageArea from "../molecules/ThirdCardImageArea";
-import ThirdCircleImgArea from "../molecules/ThirdCircleImgArea";
-import ThirdInnerCardArea from "../molecules/ThirdInnerCardArea";
-import ThirdSecondDesHeaderArea from "../molecules/ThirdSecondDesHeaderArea";
-import ThirdSecondHeaderArea from "../molecules/ThirdSecondHeaderArea";
+
+import TBottomBoxArea from "../molecules/3_BottomBoxArea";
+import TMainHeaderArea from "../molecules/3_MainHeaderArea";
+
+import TCircleImgArea from "../molecules/3_CircleImgArea";
+import TCardImageArea from "../molecules/3_CardImageArea";
+import TSecondHeaderArea from "../molecules/3_SecondHeaderArea";
+import TSecondDesHeaderArea from "../molecules/3_SecondDesHeaderArea";
+import TDesHeaderArea from "../molecules/3_DesHeaderArea";
+import TInnerCardArea from "../molecules/3_InnerCardArea";
 
 function SectionThree() {
   return (
     <>
       <div className="section-three">
-        <MainThirdHeaderArea />
-        <ThirdDesHeader />
-        <ThirdSecondHeaderArea />
-        <ThirdSecondDesHeaderArea />
-        <ThirdCircleImgArea />
-        <ThirdCardImageArea />
-        <ThirdInnerCardArea />
+        <TMainHeaderArea />
+        <TDesHeaderArea />
+        <TSecondHeaderArea />
+        <TSecondDesHeaderArea />
+        <TCircleImgArea />
+        <TCardImageArea />
+        <TInnerCardArea />
+        <TBottomBoxArea />
       </div>
     </>
   );

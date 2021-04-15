@@ -1,23 +1,25 @@
 import React from "react";
-import CardImageArea from "../../sectionTwo/molecules/CardImageArea";
-import CircleImgArea from "../../sectionTwo/molecules/CircleImgArea";
-import DesHeaderArea from "../../sectionTwo/molecules/DesHeaderArea";
-import InnerCardArea from "../../sectionTwo/molecules/InnerCardArea";
-import MainSecondHeaderArea from "../../sectionTwo/molecules/MainSecondHeaderArea";
-import SecondDesHeaderArea from "../../sectionTwo/molecules/SecondDesHeaderArea";
-import SecondHeaderArea from "../../sectionTwo/molecules/SecondHeaderArea";
+import FBottomBoxArea from "../molecules copy/4_BottomBoxArea";
+import FCardImageArea from "../molecules copy/4_CardImageArea";
+import FCircleImgArea from "../molecules copy/4_CircleImgArea";
+import FDesHeaderArea from "../molecules copy/4_DesHeaderArea";
+import FInnerCardArea from "../molecules copy/4_InnerCardArea";
+import FMainSecondHeaderArea from "../molecules copy/4_MainSecondHeaderArea";
+import FSecondDesHeaderArea from "../molecules copy/4_SecondDesHeaderArea";
+import FSecondHeaderArea from "../molecules copy/4_SecondHeaderArea";
 
 function SectionFour() {
   return (
     <>
       <div className="section-four">
-        <MainSecondHeaderArea />
-        <DesHeaderArea />
-        <SecondHeaderArea />
-        <SecondDesHeaderArea />
-        <CircleImgArea />
-        <CardImageArea />
-        <InnerCardArea />
+        <FMainSecondHeaderArea />
+        <FDesHeaderArea />
+        <FSecondHeaderArea />
+        <FSecondDesHeaderArea />
+        <FCircleImgArea />
+        <FCardImageArea />
+        <FInnerCardArea />
+        <FBottomBoxArea />
       </div>
     </>
   );
